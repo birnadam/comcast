@@ -1,0 +1,205 @@
+body {
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.global header {
+  font-family: "Roboto", sans-serif;
+}
+
+.container p,
+.your-answer {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #5e51f4;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+  display: block;
+  width: 50%;
+  padding: 0px 10px;
+  margin-left: 20px;
+  border: 1px solid #f2f2ff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px 0px #5e51f4;
+}
+
+.btn {
+  width: 100%;
+  margin: 25px auto;
+}
+
+.container a {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #5e51f4;
+  border: 1px solid #5e51f4;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.container a:hover {
+  font-size: 17px;
+}
+
+.comcast-img {
+  position: relative;
+  top: -175px;
+  float: right;
+}
+
+.rating-container {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f2f2ff;
+}
+
+.rating {
+  text-align: right;
+  padding: 10px;
+  color: white;
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.one {
+  width: 10%;
+  background-color: #5e51f4;
+} /* Blue */
+.six {
+  width: 60%;
+  background-color: #5e51f4;
+} /* Red */
+.eight {
+  width: 80%;
+  background-color: #5e51f4;
+} /* Dark Grey */
+
+.issues-list {
+  margin-top: 10px;
+}
+
+.response {
+  font-family: "Roboto", sans-serif;
+  display: block;
+  width: 99%;
+  margin: 10px auto;
+}
+
+li {
+  list-style-type: circle;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+  position: relative;
+  left: -10px;
+  color: black;
+}
+
+/* CSS / HTML Question #2 */
+.q2 {
+  border-color: black;
+  border-width: 0px 5px;
+  border-style: solid;
+  background-color: lightsteelblue;
+  padding-left: 5px;
+}
+
+#question2 {
+  border: 1px solid red;
+  padding: 10px;
+}
+
+/* CSS / HTML Question #3 */
+.comcast {
+  color: #5e51f4;
+}
+.nbc {
+  color: black;
+}
+
+/* CSS Question #4 */
+.box1 {
+  display: inline-block;
+  background-color: green;
+  width: 200px;
+}
+.box2 {
+  display: inline-block;
+  background-color: grey;
+  width: 200px;
+  float: right;
+}
+.box3 {
+  display: block;
+  margin: auto;
+  background-color: aqua;
+  width: 200px;
+}
+
+@media only screen and (max-width: 1210px) {
+  .container {
+    width: 95% !important;
+    margin: auto !important;
+  }
+
+  .container a {
+    font-size: 13px;
+  }
+
+  .container a:hover {
+    font-size: 14px;
+  }
+
+  .comcast-img {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .box3 {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .container a {
+    font-size: 10px;
+  }
+
+  .container a:hover {
+    font-size: 10px;
+  }
+}
